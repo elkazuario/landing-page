@@ -1,0 +1,48 @@
+:root{
+    ---principal:#13315c;
+    ---background:#8da9c4 ;
+    ---secundario:#0b2545;
+    ---tersiario:#134074;
+    ---letras:#ffff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header{
+    background: var(---tersiario);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    padding: 6px 65px;
+}
+.logo{
+    height: 40%;
+
+}
+
+.navbar{
+    gap: 100px;
+}
+
+.navbar, .navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar, .navbar-list{
+    gap:20px ;
+}
+
+.navbar-list li a{
+    text-decoration: none;
+    color: var(---letras);
+}
