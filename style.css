@@ -92,6 +92,5 @@ header{
     background: var(---secundario);
     color:var(---letras2);
     display: flex;
-    padding: 50px;
     text-align: center;
 }
