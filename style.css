@@ -62,7 +62,7 @@ header{
     gap: 20px;
     text-align: center;
     padding: 30px;
-    height: 100%;
+   /* height: 100%;*/
 
 }
 
@@ -75,15 +75,17 @@ header{
     justify-content: center;
 }
 
-.hero-div > a{
+
+.boton{
+
     background:var(---tersiario);
     color: var(---letras);
     border-radius: 10px 10px 10px 10px;
-    padding:20px;
+    padding:10px;
     text-align: center;
     font-size: 15px;
-
-    margin-top: 25px;
+    display:inline-block;
+    gap: 20px;
 
 }
 
@@ -92,7 +94,6 @@ header{
     background: var(---secundario);
     color:var(---letras2);
     display: flex;
-
     padding: 50px;
     text-align: center;
 
