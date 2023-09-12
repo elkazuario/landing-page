@@ -4,6 +4,9 @@
     ---secundario:#0b2545;
     ---tersiario:#134074;
     ---letras:#ffff;
+    ---fondos:#140b2f;
+    ---letras2:#494949;
+
 }
 
 *{
@@ -45,4 +48,50 @@ header{
 .navbar-list li a{
     text-decoration: none;
     color: var(---letras);
+    
+}
+
+
+    /*HERO GAMER*/
+
+#hero{
+    background: var(---fondos);
+    display: flex;
+    padding-top:20px;
+    color: var(---letras);
+    gap: 20px;
+    text-align: center;
+    padding: 30px;
+    height: 100%;
+    gap: 30px;
+}
+
+
+.hero-div > h3{
+    display: flex;
+    font-size: 20px;
+    text-align: end;
+    height:50px;
+    justify-content: center;
+}
+
+.hero-div > a{
+    background:var(---tersiario);
+    color: var(---letras);
+    border-radius: 10px 10px 10px 10px;
+    padding:20px;
+    text-align: center;
+    font-size: 15px;
+    gap: 40px;
+
+}
+
+
+.fotter{
+    background: var(---secundario);
+    color:var(---letras2);
+    display: flex;
+
+    padding: 50px;
+    text-align: center;
 }
