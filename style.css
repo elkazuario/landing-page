@@ -63,7 +63,6 @@ header{
     text-align: center;
     padding: 30px;
     height: 100%;
-    gap: 30px;
 
 }
 
@@ -83,6 +82,7 @@ header{
     padding:20px;
     text-align: center;
     font-size: 15px;
+
     margin-top: 25px;
 
 }
@@ -92,5 +92,8 @@ header{
     background: var(---secundario);
     color:var(---letras2);
     display: flex;
+
+    padding: 50px;
     text-align: center;
+
 }
